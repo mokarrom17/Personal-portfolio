@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+/* shared */
+.dark {
+  color: #21243d;
+}
+.btn-primary {
+  background-color: #ff6464;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+/* Nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 27px 60px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 32px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 148px 0 148px;
+}
+.banner-content {
+  max-width: 510px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner-profile-pic {
+  width: 243px;
+}
