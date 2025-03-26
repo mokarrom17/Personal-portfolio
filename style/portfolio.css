@@ -108,7 +108,77 @@ nav ul li a {
   font-size: 20px;
 }
 /* Work section */
-.work {
+.featured-work {
   width: 100%;
   margin: 30px 0 30px 200px;
+}
+.work-name {
+  font-size: 24px;
+  font-weight: normal;
+}
+.featured-content {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.featured-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Aligns divider to start from the left */
+  width: 50%; /* Makes the divider cover half the page */
+  height: 2px;
+  background: #ccc;
+}
+.work-title,
+.upload-year,
+.upload-content-name,
+.upload-content-description {
+  margin: 0;
+}
+
+.featured-image {
+  width: 300px;
+  height: 200px;
+  display: block;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+.featured-text {
+  flex: 1;
+}
+.work-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.work-upload-info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.upload-year {
+  font-size: 20px;
+  background-color: #142850;
+  color: white;
+  border-radius: 16px;
+  font-weight: 900;
+  padding: 0 10px 0 10px;
+}
+.upload-content-name {
+  color: #8695a4;
+}
+.upload-content-description {
+  font-size: 20px;
+  width: 600px;
+  margin-bottom: 10px;
+}
+/* footer section */
+h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
